@@ -35,7 +35,6 @@ class Gimine {
 
     }
 
-
     mire(index) {
         const updatedList = [];
         for (let i = 0; i < this.list.length; i++) {
@@ -50,7 +49,6 @@ class Gimine {
         this.list[index].married = false;
 
     }
-
 }
 
 module.exports = Gimine;
